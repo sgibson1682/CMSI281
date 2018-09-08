@@ -1,3 +1,4 @@
+//program that prompts the user for a file then makes a copy of that file
 import copiersupport.*;
 import java.io.FileReader;
 import java.io.FileWriter;
