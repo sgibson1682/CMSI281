@@ -1,0 +1,37 @@
+
+Classwork02 Evaluation
+======================
+
+Nice job on this assignment, with a couple of comments:
+
+You don't need to import all the things from java.io in ALL
+the files, only the ones that are used in each file.
+
+Also, per our discussion, you don't need to read/write one
+character at a time, when you can do an entire line or even
+and entire file.  Check the Java API for more details -- it
+is your friend!
+
+scores:
+=============================
+MyFileCopier.java
+   prompts user for filename  [1 pt]
+   calls Source constructor   [1 pt]
+   calls getter method        [1 pt]
+   calls Target constructor   [1 pt]
+Source.java
+   reads file completely      [1 pt]
+   has getter or returning    [1 pt]
+Target.java
+   writes file completely     [1 pt]
+file hdrs (3)                 [3 pt]
+no tabs                       [1 pt]
+indenting consistent          [1 pt]
+descriptive variable names    [1 pt]
+
+total possible points         13 points
+
+
+you got 13 out of 13 which is 100% which is an A-plus,
+
+
