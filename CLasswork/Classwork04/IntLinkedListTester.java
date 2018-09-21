@@ -41,11 +41,15 @@ public class IntLinkedListTester {
          myList.removeAt(0);
          //myList.removeAt(11);
          myList.removeAt(10);
-         myList.removeAt(5);
+         System.out.println(myList.removeAt(5) == 6);
          myIt = myList.getIteratorAt( 0 );
          System.out.println( myIt.getCurrentInt() == 1);
+         myIt = myList.getIteratorAt( 1 );
+         System.out.println( myIt.getCurrentInt() != 1);
          myIt = myList.getIteratorAt( 5 );
          System.out.println( myIt.getCurrentInt() == 7);
+         myIt = myList.getIteratorAt( 6 );
+         System.out.println( myIt.getCurrentInt() != 7);
          myIt = myList.getIteratorAt( 8 );
          System.out.println( myIt.getCurrentInt() == 10);
       }
