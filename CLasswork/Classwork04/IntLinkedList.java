@@ -40,21 +40,25 @@ public class IntLinkedList {
         size++;
       }
 
-      public void removeAt(int index){
+      public int removeAt(int index){
         if( (index >= size) || (index < 0) ) {
            throw new IllegalArgumentException();
         }
+        int val;
         if(index == 0){
+          val = this.head.data;
           this.head = head.next;
           size--;
-          return;
+          return val;
         }
         Iterator it = new Iterator();
         for(int i = 0; i < index - 1; i++){
           it.next();
         }
+        val = it.currentNode.next.data;
         it.currentNode.next = it.currentNode.next.next;
         size--;
+        return val;
       }
 
       private class Node {
