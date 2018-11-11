@@ -1,0 +1,61 @@
+
+Homework03 Evaluation
+======================
+
+Nice work on this assignment!
+Here are a couple of observations and comments:
+
+Good job on the sorting.  Try to think of more tests that you
+can do.  Good job on letting the user know which test is which,
+and it's also helpful to have an idea of what the expected output
+will be so the user has something to compare with for checking if
+the program works correctly.  Don't neglect negative numbers, and
+things like lists that are pre-sorted or pre-sorted in reversed
+order.
+
+The Simon game works but I couldn't figure out specifically how
+to enter the letters in sequence.  With two letters, if I enter
+them together like "br" it tells me that's not a color.  If I
+enter them one at a time and press enter between, it tells me I
+lost.  It DOES ask if I want to play again, though...
+
+EXCELLENT use of JavaDocs, thank you!!  You don't need to put in
+an @author tag for every method, unless you are flagging that one
+of you wrote one thing and the other wrote another.  It's actually
+a collaboration, so both names at the top of the file is perfect.
+
+scores:
+=============================
+XXXXX-Sorter.java
+   oddEvenSort implemented                   [1 pt.]
+   compiles                                  [1 pt.]
+   works as advertised                       [1 pt.]
+
+SimonGame.java
+   randomized array                          [1 pt.]
+   display/erase sequences                   [1 pt.]
+   check user's guess against array          [1 pt.]
+   increment letter count each iteration     [1 pt.]
+   play again message on incorrect entry     [1 pt.]
+   compiles                                  [1 pt.]
+   works as advertised                       [1 pt.]
+
+HuffmanCoding.java
+   count character occurrences               [0 pt.]
+   use some sort of queue to build tree      [0 pt.]
+   tree constructed correctly                [0 pt.]
+   message encoded correctly                 [0 pt.]
+   message decoded correctly                 [0 pt.]
+   compiles                                  [0 pt.]
+   works as advertised                       [0 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [1 pt.]
+
+Total credit is 13 for Sorter and either Simon or Huffman
+ extra credit is 7 points for other of Simon or Huffman
+-------------------------
+ Grand total is 20 points for all three
+
+you got 13 out of 13 which is 100% which is an A-plus
