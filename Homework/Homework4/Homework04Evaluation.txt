@@ -1,0 +1,68 @@
+
+Homework04 Evaluation
+======================
+
+Nice job on this assignment...
+Here are a couple of observations and comments:
+
+Your code looks great and thanks for doing headers!
+
+These were from Sam's repo.
+
+The inOrderTraversal does work, but as always, you can do more
+testing.  For example, after doing the traversal once, remove
+a node or two and do it again, to make sure the bubbling works.
+Just a suggestion -- there's NEVER enough testing, really...
+
+Actually, that goes across the board for all your applications in
+this set...  Pay attention to good testing methods, it's part of
+the CRAFT of writing good programs and in the modern software
+engineering environment you will HAVE to do this kind of stuff!
+You may as well get used to it now and make it part of your own
+operational programming philosophy!
+
+I notice you removed the menu system, I won't fault you for that,
+but it was unexpected....  still giving you credit for it.
+  
+
+scores:
+=============================
+Tree Traverser
+   inOrderTraverser method implemented       [1 pt.]
+   2 test sets with at least minimal nodes   [2 pt.]
+   produces proper sequences                 [2 pt.]
+
+Priority Queue
+   Queue creation works correctly            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   isFull() works correctly                  [1 pt.]
+   isEmpty() works correctly                 [1 pt.]
+   removal() works correctly                 [1 pt.]
+   heap representation works correctly       [1 pt.]
+
+Linear Probing String Hasher
+   menu works                                [1 pt.]
+   shows contents                            [1 pt.]
+   hash table created correctly              [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Digit Folding Hasher
+   menu works                                [1 pt.]
+   shows contents                            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [4 pt.]
+
+Total credit is 30 points
+-------------------------
+
+you got 30 out of 30 which is 100% which is an A-plus
+
